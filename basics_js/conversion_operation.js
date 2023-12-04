@@ -22,4 +22,23 @@ let login = Boolean(isLoggedIn)
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber)
+// console.log(typeof stringNumber)
+
+let str1 = "hello"
+let str2 = "Ram"
+let str3 = str1 + " " + str2
+console.log(str3)
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter)
+
+let x = 4;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
